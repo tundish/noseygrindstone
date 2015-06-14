@@ -31,9 +31,38 @@ import shlex
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.todo',
+    "sphinx.ext.autodoc",
+    "sphinx.ext.todo",
+    "hieroglyph",
 ]
+
+#slides_title = "Console Prototyping"
+slide_theme = "single-level"
+#slides_levels = 3
+slide_theme_options = {
+    "custom_css": "custom.css",
+    #'custom_js': 'custom.js',
+}
+
+if slide_theme in ("slides2",):
+    slide_theme_options.update({
+        "presenters": [
+            {
+                "name": "Tundish",
+                "im": "tundish@jabber.org",
+                "www": "http://hwit.org",
+                "video": "https://vimeo.com/album/3437923",
+                "github": "git@github.com:tundish/noseygrindstone.git",
+            },
+        ],
+    })
+
+# Place custom static assets in the _static directory and uncomment
+# the following lines to include them
+
+# slide_theme_options = {
+# }
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
