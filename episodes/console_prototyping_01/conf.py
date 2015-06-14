@@ -36,15 +36,16 @@ extensions = [
     "hieroglyph",
 ]
 
-#slides_title = "Console Prototyping"
 slide_theme = "single-level"
-#slides_levels = 3
+slide_numbers = True
+slide_levels = 3
 slide_theme_options = {
     "custom_css": "custom.css",
     #'custom_js': 'custom.js',
 }
 
 if slide_theme in ("slides2",):
+    slide_numbers = False
     slide_theme_options.update({
         "presenters": [
             {
