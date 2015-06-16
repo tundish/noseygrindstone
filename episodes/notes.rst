@@ -20,7 +20,7 @@ Screen capture
 
 Platform
     Gigabyte P34
-Video
+Display adapter
     Nvidia GTX 860M
 Operating system
     MS Windows 8.1
@@ -29,16 +29,26 @@ Software
 Resolution
     1280 x 720
 Frame rate
-    30 fps 
+    30 fps
+Encoder
+    x264
+Max bit rate
+    6000 kbps
+Options
+    crf=18
+Output format
+    MP4
 
 Edit
 ::::
 
 Platform
     Gigabyte P34
-Video
+Display adapter
     Nvidia GTX 860M
 Operating system
     MS Windows 8.1
 Software
    Lightworks 12.02
+Output
+    1080p (sf) 30fps
