@@ -25,24 +25,27 @@ Display adapter
 Operating system
     MS Windows 8.1
 Software
-   OBS 0.651b
+   XSplit Broadcaster v2.3
 Resolution
-    1280 x 720
+    1280 x 720p
 Frame rate
     30 fps
 Encoder
     x264
-Max bit rate
-    6000 kbps
-Options
-    * enable CFR
-    * crf=18
 Output format
     MP4
 
-See the `OBS guide`_ for more details.
+Console settings
+================
 
-.. OBS guide: https://obsproject.com/forum/resources/how-to-make-high-quality-local-recordings.16/
+Font
+    Lucida Console 24
+Window size
+    136 x 43
+Screen buffer size
+    160 x 200
+Window position
+    0 0
 
 Transcode video
 :::::::::::::::
@@ -62,6 +65,16 @@ Output
 Output format
     .mov
 
+Alternative transcoders:
+
+* Handbrake_
+* Mediacoder_
+* `Eyeframe converter`_
+
+.. _Handbrake: https://handbrake.fr/
+.. _Mediacoder: http://www.mediacoderhq.com/
+.. _Eyeframe converter: https://eyeframeconverter.wordpress.com/
+
 Edit
 ::::
 
@@ -80,4 +93,4 @@ Audio
 Import
     Transcode to AVI YUYV ? Not needed for simple example.
 Output
-    1080p (sf) 30fps
+    720p 30.0fps
