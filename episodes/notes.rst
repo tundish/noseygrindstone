@@ -39,14 +39,23 @@ Options
 Output format
     MP4
 
-Transcode
-:::::::::
+Transcode video
+:::::::::::::::
 
 Be careful editing from sources with variable frame rates. At some point you
 might encounter video or audio artifacts. When this happens you'll need to
 transcode those sources to more resilient formats, eg:
-ClipToolz
-10bit ProRes 4:2:2
+
+Software
+    ClipToolz Convert V2.1.10
+Video
+    1280 x 720p 30fps
+Audio
+    None
+Output
+    10bit ProRes 4:2:2
+Output format
+    .mov
 
 Edit
 ::::
