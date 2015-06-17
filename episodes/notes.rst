@@ -35,9 +35,14 @@ Encoder
 Max bit rate
     6000 kbps
 Options
-    crf=18
+    * enable CFR
+    * crf=18
 Output format
     MP4
+
+See the `OBS guide`_ for more details.
+
+.. OBS guide: https://obsproject.com/forum/resources/how-to-make-high-quality-local-recordings.16/
 
 Transcode video
 :::::::::::::::
