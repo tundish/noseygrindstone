@@ -15,6 +15,7 @@ Resources
 
 * `Videocast transcript`_
 * `Python website`_
+* `Addison Arches`_
 
 .. target-notes::
 
@@ -22,3 +23,4 @@ Resources
 .. _thuswise.co.uk: http://www.thuswise.co.uk
 .. _Videocast transcript: https://github.com/tundish/noseygrindstone
 .. _Python website: https://www.python.org/
+.. _Addison Arches: https://github.com/tundish/addisonarches
