@@ -18,3 +18,9 @@ To prove that certain objectives you have are within your capability. And the
 prototype can be a talking point to help create interest or increase awareness
 of your project.
 
+Today I'm going to show you what an early game prototype might look like, and
+I'll demonstrate a couple of the mechanics of a game I'm working in called
+Addison Arches.
+
+First though, we'll look at how easy it is to put an interactive prototype
+together. In my case, I'm developing in the Python language
