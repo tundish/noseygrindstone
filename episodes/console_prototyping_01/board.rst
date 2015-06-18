@@ -4,7 +4,15 @@
 Noseygrindstone blogcast
 ::::::::::::::::::::::::
 
-    `"Let's build a web made of games"`.
+.. figure:: /_static/lionel_jeffries_as_grandpa_potts-304x380.jpg
+   :align: left
+   :width: 200
+
+   © MGM Pictures
+
+.. epigraph::
+
+   `"Let's build a web made of games"`.
 
 Console prototyping (part one)
 ==============================

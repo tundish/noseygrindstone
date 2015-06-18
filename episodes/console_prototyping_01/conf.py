@@ -183,6 +183,12 @@ html_static_path = ['_static']
 # directly to the root of the documentation.
 #html_extra_path = []
 
+# Adds in extra stylesheets
+def setup(app):
+   #app.add_javascript("custom.js")
+   app.add_stylesheet("custom.css")
+
+
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 #html_last_updated_fmt = '%b %d, %Y'
@@ -222,7 +228,7 @@ html_show_sourcelink = False
 #html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = False
+html_show_copyright = False
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the

@@ -6,8 +6,8 @@ Console prototyping (part one)
 
 .. include:: ../../README.rst
  
-Contents
-========
+Home
+====
 
 .. toctree::
    :maxdepth: 1

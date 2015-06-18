@@ -6,12 +6,10 @@
   <li><a href="{{ parent.link|e }}">{{ parent.title }}</a><ul>
   {%- endfor %}
     {%- if prev %}
-      <li>Back: <a href="{{ prev.link|e }}" title="{{ _('previous chapter')
-        }}">{{ prev.title }}</a></li>
+      <li><a href="{{ prev.link|e }}" title="{{ _('previous chapter') }}">Back</a></li>
     {%- endif %}
     {%- if next %}
-      <li>Next: <a href="{{ next.link|e }}" title="{{ _('next chapter')
-        }}">{{ next.title }}</a></li>
+      <li><a href="{{ next.link|e }}" title="{{ _('next chapter') }}">Next</a></li>
     {%- endif %}
   {%- for parent in parents %}
   </ul></li>

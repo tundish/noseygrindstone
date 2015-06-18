@@ -1,0 +1,8 @@
+.caption span.caption-text {
+color: rgba(0, 0, 0, .6);
+font-family: sans-serif;
+font-size: 0.5em;
+font-weight: lighter;
+position: absolute;
+margin-top: -5.0em;
+}
