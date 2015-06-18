@@ -12,4 +12,6 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   slides
+   board
+   body
+   contact
