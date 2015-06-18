@@ -10,7 +10,7 @@ Noseygrindstone blogcast
 
    © MGM Pictures
 
-.. epigraph::
+.. pull-quote::
 
    `"Let's build a web made of games"`.
 

@@ -1,8 +1,6 @@
 Part of the Noseygrindstone blogcast.
 =====================================
 
-    `"Let's build a web made of games"`.
-
 This work is licensed under the Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International License.
 
