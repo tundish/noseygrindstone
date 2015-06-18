@@ -1,13 +1,16 @@
 ..  Titling
     ##++::==~~--''``
 
+Links
+=====
+
 Contact
-=======
+~~~~~~~
 
 :github: tundish_
 
-Links
-=====
+Resources
+~~~~~~~~~
 
 * `Videocast transcript`_
 
