@@ -4,22 +4,20 @@
 Transcript
 ==========
 
-Welcome to the Noseygrindstone!
+Welcome to Noseygrindstone. This is tundish. You're listening to my occasional
+podcast on small-scale game development.
 
-This is a podcast on various aspects of game development. Very small-scale
-game development by individuals.
-
-If your hobby is making a computer game, it's likely to be taking a while.
+So, your hobby is making a computer game, and it's likely to take a while.
 Which means that you will spend a good period of time referring to it as a
 `work in progress`.
 
-When people ask, it's important to show them that you're getting somewhere,
-and also very useful to have early feedback on your ideas. What's needed
-then, is a prototype which you can show to people and talk about.
+When someone asks, it's nice to be able to show them that you're getting
+somewhere, and also very useful to have early feedback on your ideas. What we need
+is a prototype which we can put in front of people and talk about.
  
 Prototyping a game is not the same as designing it. And it's certainly not the
-same as testing it. Testing is a massive topic which I'm sure I'm going to have
-to tackle at some point if this series continues.
+same as testing it. Testing is a massive topic which I'm sure I'm going to be
+tackling at some point as the series continues. But today we're prototyping.
 
 Prototyping is useful for taking the risk out of an idea.
 To prove that the objectives you have set yourself are within your capability.
@@ -31,9 +29,10 @@ Today I'm going to show you what an early game prototype might look like, and
 I'll demonstrate a couple of the mechanics of a game I'm working on called
 Addison Arches.
 
-First though, we'll look at how easy it is to put an interactive prototype
-together. Now, in my case, I'm developing in the Python language, which has a
-standard module for doing interactive text programs.
+First we are going to look at how easy it can be to put an interactive prototype
+together. In my case, I'm developing in the Python language, which has a
+standard module for doing interactive text programs. I'm going to show you
+where to find that module if you decide to use Python.
 
 .. topic:: Python ``cmd`` module
 
@@ -45,14 +44,17 @@ standard module for doing interactive text programs.
     The prototype I'm about to show you extends the command loop a bit so that
     time can pass in the background.
 
-    If you're curious as to the details I'll post a link at the end to the
+    If you're curious as to the details I'm posting a link at the end to the
     source code I'm using today.
 
 So, the game prototype we are about to see responds to text-based commands.
-This is not a text parser game; the commands take well-defined arguments, so
-it's more akin to filling out the fields of a web form, only on a command line.
-In fact, Addison Arches will eventually become a web-based game, with graphics
-and sound effects and music and everything else.
+This is not a text parser game; there are just a few supported commands and
+they take well-defined arguments.
+
+Addison Arches will eventually become a web-based game. It's going to have
+graphics and sound effects and music and everything else. I'm hoping to cover
+those aspects in future episodes, to give you an idea of how the whole thing
+builds up.
 
 What I can show you today is two of the features of the game; trading and
 crafting.
@@ -66,7 +68,7 @@ crafting.
 So, I've written into the game the concept of `drama`. A drama is the thing
 that's going on in any character's life at any particular moment. The NPCs
 sense that drama and they respond to it. So when you decide you want to buy
-the tables, that's when Jimmy pipes up with his price.
+the tables, that's when Jimmy comes up with his opening price.
 
 .. topic:: Trading: Selling to NPCs
 
@@ -85,10 +87,11 @@ mechanism.
     #. Split up the shipments of tables
     #. Go and sell Barry some pallets
 
-The game lets you break things to bits, but there's not yet any command to let
-you follow a recipe to make something yet.
+So the game lets you break things to bits, but there's not yet any command to let
+you follow a recipe to make something. I'm not actually sure whether I want making
+stuff to be part of the gameplay. The NPCs will be the ones crafting things behind
+the scenes.
 
-Anyway, thanks for listening to this podcast. I'm going to leave you with some
-useful links.
-
-Look forward to the next time on Noseygrindstone!
+Anyway, thanks for listening. Here are some links you might want to check out.
+Remember, `you and me from the ashes we can build a web made of games`.
+Catch you next time on Noseygrindstone!
