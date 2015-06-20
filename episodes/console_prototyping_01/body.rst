@@ -29,23 +29,16 @@ Today I'm going to show you what an early game prototype might look like, and
 I'll demonstrate a couple of the mechanics of a game I'm working on called
 Addison Arches.
 
-First we are going to look at how easy it can be to put an interactive prototype
-together. In my case, I'm developing in the Python language, which has a
-standard module for doing interactive text programs. I'm going to show you
-where to find that module if you decide to use Python.
+In my case, I'm developing in the Python language, which has a
+standard module for doing interactive text programs. If you decide to use Python,
+the module you want is the **cmd** module. I call it the `command` module.
 
-.. topic:: Python ``cmd`` module
+This module is enough by itself to give you the framework of a turn-based
+text-driven game. Although I had to extend the command loop a bit so that
+time can pass in the background.
 
-    * Show Python documentation
-
-    This module is enough by itself to give you the framework of a turn-based
-    text-driven game.
-
-    The prototype I'm about to show you extends the command loop a bit so that
-    time can pass in the background.
-
-    If you're curious as to the details I'm posting a link at the end to the
-    source code I'm using today.
+If you're curious as to the detail of that, I'm posting a link at the end to the
+source code I'm using today.
 
 So, the game prototype we are about to see responds to text-based commands.
 This is not a text parser game; there are just a few supported commands and
